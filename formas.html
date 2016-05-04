@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Ebermudezgit.GitHub.io : Se presenta mi pagina persona. Tenemos la primera fase de lo visto en el Desafio Latam.">
+    <meta name="Keywords" content="Etiquetas,No,Abusar">
+    <meta name="Robots" content="Index,follow">
+    
+    <!-- FaceBook -->
+    <meta property="og:url" content="http://ebermudezgit.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mi pagina Personal">
+    <meta property="og:description" content="Ebermudezgit.GitHub.io : Se presenta mi pagina persona. Tenemos la primera fase de lo visto en el Desafio Latam.">
+    <meta property="og:image" content="http://img.xmensajes.com/hola/303.jpg">
+    <meta property="og:site_name" content="Ebermudezgit.GitHub.io">
+
+    <!-- G + -->
+    <meta itemprop="name" content="Ebermudezgit.GitHub.io">
+    <meta itemprop="description" content="Ebermudezgit.GitHub.io : Se presenta mi pagina persona. Tenemos la primera fase de lo visto en el Desafio Latam.">
+    <meta itemprop="image" content="http://img.xmensajes.com/hola/303.jpg">
+
+	<title>Forma e Input</title>
+</head>
+<body>
+	
+	<h1>Forma e Input</h1>
+
+	<form method="get" action="formas.html" id="forma" >
+	<fieldset>
+		<legend>Contactame, dame tu opinion</legend>
+	<label for="Nombre">Nombre(s)</label>
+		<input type="text" id="Nombre" placeholder="Eli" required>
+		<br>
+	<label for="Apellidos">Apellidos</label>
+		<input type="text" id="Apellidos" placeholder="Bermudez" required>
+		<br>
+	<label for="correo">Correo</label>
+		<input type="email" id="correo" placeholder="bermudez.86@live.com.mx" required>
+		<br>
+	<label>Elige una Opcion</label>
+	<label for="radio1">1</label>
+		<input type="radio" name="radio" id="radio1">
+	<label for="radio2">2</label>
+		<input type="radio" name="radio" id="radio2">
+	<label for="radio3">3</label>
+		<input type="radio" name="radio" id="radio3">
+	<label for="radio4">4</label>
+		<input type="radio" name="radio" id="radio4">
+	<label for="radio5">5</label>
+		<input type="radio" name="radio" id="radio5" checked>
+		<br>
+		<select name="pais" id="pais">
+			<option value="Mexico">Mexico</option>
+			<option value="Otro">Otro</option>
+		</select>
+		<br>
+		<label for="multi">Tus gustos</label>
+		<select name="multi" id="multi" multiple>
+			<option value="Cine">Cine</option>
+			<option value="Programacion">Programacion</option>
+			<option value="Musica">Musica</option>
+		</select>
+		<br>
+		<input type="button" value="Boton">
+		<label for="Color">Color</label>
+		<input type="Color" id="Color">
+		<label for="numero">Elige un numero</label>
+		<input type="Number" id="Numero" placeholder="10" min="0" max="12">
+		<br>
+	<label for="textArea">Comentarios</label>
+		<br>
+		<textarea name="textArea" id="textArea" cols="30" rows="10" placeholder="comentarios"></textarea>
+		<br>
+	<label for="listo">Listo</label>
+		<input type="checkbox" id="checkbox" required>
+		<br>
+		<input type="submit" value="Enviar">
+		<br>
+		</fieldset>
+	</form>
+</body>
+</html>
